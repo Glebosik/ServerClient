@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.serverclient.client.TakeVehicleController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <ComboBox fx:id="driverComboBox" prefWidth="150.0" promptText="ФИО водителя" />
+      <DatePicker fx:id="datePicker" promptText="Назначение до" />
+      <HBox alignment="CENTER">
+         <children>
+            <Button fx:id="takeButton" alignment="CENTER_RIGHT" onAction="#onTakeButtonClick" text="Назначить">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+   </children>
+</VBox>

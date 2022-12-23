@@ -1,0 +1,22 @@
+[2022-12-23 12:22:56] [INFO] Client <0> has connected. 
+[2022-12-23 12:23:18] [INFO] Client <0> sent loginRequest with login 'brig1' and password 'brig1' 
+[2022-12-23 12:23:18] [INFO] Server replied to Client <0> loginRequest with status=True userId=2 userType=Brigadier specificId=1 
+[2022-12-23 12:23:18] [INFO] Client <0> sent getBrigadierDataRequest with idBrigadier=1 
+[2022-12-23 12:23:18] [INFO] Server replied to Client <0> getDriverDataRequest with status=true and lists of vehicles and drivers 
+[2022-12-23 12:23:19] [INFO] Client <0> sent getAllDriversForBrigadier with idBrigadier=1 
+[2022-12-23 12:23:19] [INFO] Server replied to Client <0> getAllDriversForBrigadier with statue=true and list of drivers 
+[2022-12-23 12:23:25] [INFO] Client <0> sent takeVehicleRequest with idVehicle=1 idDriver=1 date=2022-12-31 
+[2022-12-23 12:23:25] [INFO] Server replied to Client <0> takeVehicleRequest with status=true 
+[2022-12-23 12:23:25] [INFO] Client <0> sent getBrigadierDataRequest with idBrigadier=1 
+[2022-12-23 12:23:25] [INFO] Server replied to Client <0> getDriverDataRequest with status=true and lists of vehicles and drivers 
+[2022-12-23 12:23:26] [INFO] Client <0> sent getAllDriversForBrigadier with idBrigadier=1 
+[2022-12-23 12:23:26] [INFO] Server replied to Client <0> getAllDriversForBrigadier with statue=true and list of drivers 
+[2022-12-23 12:23:31] [INFO] Client <0> sent takeVehicleRequest with idVehicle=7 idDriver=2 date=2022-12-31 
+[2022-12-23 12:23:31] [INFO] Server replied to Client <0> takeVehicleRequest with status=true 
+[2022-12-23 12:23:31] [INFO] Client <0> sent getBrigadierDataRequest with idBrigadier=1 
+[2022-12-23 12:23:31] [INFO] Server replied to Client <0> getDriverDataRequest with status=true and lists of vehicles and drivers 
+[2022-12-23 12:23:55] [INFO] Client <0> sent loginRequest with login 'manager' and password 'manager' 
+[2022-12-23 12:23:55] [INFO] Server replied to Client <0> loginRequest with status=True userId=1 userType=Manager specificId=1 
+[2022-12-23 12:23:55] [INFO] Client <0> sent getManagerDataRequest with idManager=1 
+[2022-12-23 12:23:55] [INFO] Server replied to Client <0> sent getManagerDataRequest with status=true and data for manager 
+[2022-12-23 12:24:27] [INFO] Client <0> has disconnected. 
